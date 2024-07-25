@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+}
+  
+.header{
+    background-color: #87a1f5;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 28px;
+    padding: 20px;
+    /* color: white; */
+}
+
+.header_link{
+    height: 100%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.header_link.active{
+    color: #09209e;
+}
+
+.header_link:hover{
+    background-color: #6a7c9e;
+}
+
+.footer p {
+    padding: 10px;
+    color: white;
+} 
+
+.perfer-form{
+    margin: 20px 0;
+    background-color: #7aa0e6;
+}
+
+.prefer-option {
+    display: flex;
+    align-items: center;
+}
+
+.prefer-option p{
+    font-size: large;
+    margin: 15px;
+}
+
+.perfer-form button{
+    font-size: medium;
+    margin: 15px;
+}
